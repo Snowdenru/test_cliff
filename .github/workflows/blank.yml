@@ -15,5 +15,19 @@ jobs:
       - name: Print hello
         run: echo "Hello world!"
 
+  print_full_technical_info:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Print full_tech_info
+        run: sudo lshw
+
+  print_short_technical_info:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Print short_technical_info
+        run:  sudo lshw -short
+  
     
       
