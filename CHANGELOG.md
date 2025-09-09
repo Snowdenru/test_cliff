@@ -1,5 +1,9 @@
 ## [unreleased]
 
+### 🐛 Bug Fixes
+
+- *(test.txt)* Hot fix
+
 ### 💼 Other
 
 - *(app)* 0.0.1
